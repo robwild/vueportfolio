@@ -1,0 +1,15 @@
+
+@media (max-width: 768px) {
+
+  .carousel-item {
+    height: calc(100vh - 80px);
+  }
+
+  .carousel-caption {
+    height: 50vh;
+    overflow-y: scroll;
+    bottom: auto;
+    top: 20vh;
+  }
+
+}

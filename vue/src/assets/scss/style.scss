@@ -1,0 +1,16 @@
+// Import some useful stuff
+
+$animationDuration: 0.5s; // specify animation duration. Default value: 1s
+@import "libraries/animate/vue2-animate.scss";
+
+// Bootstrap and its default variables
+@import 'libraries/bootstrap/bootstrap';
+// BootstrapVue and its default variables
+@import '../../../node_modules/bootstrap-vue/src/index.scss';
+
+// Custom styles
+@import "components/carousel.scss";
+
+body {
+  background-color: #f2f2f2;
+}
