@@ -13,28 +13,20 @@ import BootstrapVue from 'bootstrap-vue'
 // import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.use(BootstrapVue);
 
-// Progress bar stuff
-import VueProgressBar from 'vue-progressbar'
-
 // FontAwesome stuff
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
-const options = {
-  color: '#bffaf3',
-  failedColor: '#874b4b',
-  thickness: '5px',
-  transition: {
-    speed: '0.2s',
-    opacity: '0.6s',
-    termination: 300
-  },
-  autoRevert: true,
-  location: 'left',
-  inverse: false
-}
+// Highcharts stuff
+import HighchartsVue from "highcharts-vue";
+import Highcharts from "highcharts";
+import dataModule from "highcharts/modules/data";
+import drilldown from "highcharts/modules/drilldown";
 
-Vue.use(VueProgressBar, options);
+drilldown(Highcharts);
+dataModule(Highcharts);
+
+Vue.use(HighchartsVue);
 
 // Load custom styles
 import './assets/css/style.css'
