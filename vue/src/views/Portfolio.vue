@@ -8,6 +8,8 @@
         />
         <h1>This is the portfolio page</h1>
 
+        <pre>{{ portfolio }}</pre>
+
         <div>
             <b-card-group deck>
                 <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
@@ -86,6 +88,33 @@
 
     </div>
 </template>
+
+<script>
+    import axios from 'axios';
+
+    var contentapi = "https://portfolio.8manj.co.uk/drupal/api/portfolio";
+
+    export default {
+        name: 'Portfolio',
+
+        data() {
+            return {
+                portfolio: null
+            }
+        },
+        created() {
+            this.getPortfolio();
+        },
+        methods: {
+            getPortfolio() {
+                axios.get(contentapi + '?_format=json')
+                    .then(response => {
+                        this.portfolio = response.data;
+                    });
+            }
+        }
+    };
+</script>
 
 <style>
     .modal-dialog {

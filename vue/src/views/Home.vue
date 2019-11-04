@@ -1,6 +1,7 @@
 <template>
 
   <div class="home">
+
     <vue-headful
             title="Rob Wild | 8Manj Technologies Ltd online portfolio & CV"
             description="Description from vue-headful"
@@ -17,7 +18,8 @@
               sub-title="Subtitle"
       >
         <b-card-text>
-          <div class="slideInUp">Some quick example text to build on the card and make up the bulk of the card's content.</div>
+<!--          <div class="slideInUp" v-html="page[0].body"/>-->
+          <pre> {{ page }} </pre>
         </b-card-text>
 
         <Social />
@@ -32,12 +34,31 @@
 <script>
 
   import Social from "../components/Social";
+  import axios from 'axios';
+
+  var contentapi = "https://portfolio.8manj.co.uk/drupal/api/page/1";
 
   export default {
     name: 'home',
     components: {
       Social
+    },
+    data() {
+      return {
+        page: null
+      }
+    },
+    created() {
+      this.getPage();
+    },
+    methods: {
+      getPage() {
+        axios.get(contentapi + '?_format=json')
+          .then(response => {
+            this.page = response.data;
+          });
+      }
     }
-  }
+  };
 
 </script>

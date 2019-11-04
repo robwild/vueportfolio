@@ -1,6 +1,8 @@
 <template>
     <div class="brands">
         <h1>brands page</h1>
+
+        <pre>{{ brands }}</pre>
         <b-img-lazy src="https://picsum.photos/4096/2304/?image=12" alt="Image 1"></b-img-lazy>
         <b-img-lazy src="https://picsum.photos/4096/2304/?image=7" alt="Image 2"></b-img-lazy>
         <b-img-lazy src="https://picsum.photos/4096/2304/?image=4" alt="Image 3"></b-img-lazy>
@@ -17,9 +19,30 @@
 </template>
 
 <script>
+    import axios from 'axios';
+
+    var contentapi = "https://portfolio.8manj.co.uk/drupal/api/brands";
+
     export default {
-        name: "Brands"
-    }
+        name: 'Brands',
+
+        data() {
+            return {
+                brands: null
+            }
+        },
+        created() {
+            this.getBrands();
+        },
+        methods: {
+            getBrands() {
+                axios.get(contentapi + '?_format=json')
+                    .then(response => {
+                        this.brands = response.data;
+                    });
+            }
+        }
+    };
 </script>
 
 <style scoped>

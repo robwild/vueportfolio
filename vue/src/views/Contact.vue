@@ -7,6 +7,8 @@
                 keywords="some keywords here"
         />
 
+        <pre>{{ page }}</pre>
+
         <b-card no-body class="overflow-hidden" style="max-width: 100vw;">
             <b-row no-gutters>
                 <b-col md="6">
@@ -32,13 +34,32 @@
 <script>
 
     import Social from "../components/Social";
+    import axios from 'axios';
+
+    var contentapi = "https://portfolio.8manj.co.uk/drupal/api/page/3";
 
     export default {
-        name: 'Contact',
+        name: 'contact',
         components: {
             Social
+        },
+        data() {
+            return {
+                page: null
+            }
+        },
+        created() {
+            this.getPage();
+        },
+        methods: {
+            getPage() {
+                axios.get(contentapi + '?_format=json')
+                    .then(response => {
+                        this.page = response.data;
+                    });
+            }
         }
-    }
+    };
 
 </script>
 

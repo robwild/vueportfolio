@@ -8,6 +8,8 @@
     />
     <h1>This is an about page</h1>
 
+    <pre>{{ page }}</pre>
+
     <b-card no-body class="overflow-hidden" style="max-width: 100vw;">
       <b-row no-gutters>
         <b-col md="6">
@@ -28,3 +30,30 @@
 
   </div>
 </template>
+
+<script>
+  import axios from 'axios';
+
+  var contentapi = "https://portfolio.8manj.co.uk/drupal/api/page/2";
+
+  export default {
+    name: 'about',
+
+    data() {
+      return {
+        page: null
+      }
+    },
+    created() {
+      this.getPage();
+    },
+    methods: {
+      getPage() {
+        axios.get(contentapi + '?_format=json')
+                .then(response => {
+                  this.page = response.data;
+                });
+      }
+    }
+  };
+</script>

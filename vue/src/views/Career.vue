@@ -12,6 +12,7 @@
         </h1>
 
         <div>
+            <pre>{{ career }}</pre>
             <b-carousel
                     id="carousel-no-animation"
                     style=""
@@ -45,12 +46,28 @@
 </template>
 
 <script>
+    import axios from 'axios';
+
+    var contentapi = "https://portfolio.8manj.co.uk/drupal/api/careers";
+
     export default {
-        name: "Career"
-    }
+        name: 'Career',
+
+        data() {
+            return {
+                career: null
+            }
+        },
+        created() {
+            this.getCareer();
+        },
+        methods: {
+            getCareer() {
+                axios.get(contentapi + '?_format=json')
+                    .then(response => {
+                        this.career = response.data;
+                    });
+            }
+        }
+    };
 </script>
-
-<style scoped>
-
-
-</style>

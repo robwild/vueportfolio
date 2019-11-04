@@ -16,6 +16,10 @@ Vue.use(BootstrapVue);
 // Progress bar stuff
 import VueProgressBar from 'vue-progressbar'
 
+// FontAwesome stuff
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+Vue.component('font-awesome-icon', FontAwesomeIcon);
+
 const options = {
   color: '#bffaf3',
   failedColor: '#874b4b',
