@@ -1,7 +1,6 @@
 <template>
 
-  <div class="home">
-      <div v-if="ready">
+  <div class="home" v-if="ready">
         <vue-headful
                 v-bind:title="page[0].field_page_title"
                 v-bind:description="page[0].field_page_description"
@@ -11,7 +10,7 @@
           <b-card
           overlay
           v-bind:img-src="page[0].field_background_image"
-          v-bind:img-alt="page[0].field_content_sub_title"
+          v-bind:img-alt="page[0].field_field_background_image_1"
           text-variant="white"
           v-bind:title="page[0].field_content_sub_title"
           v-bind:sub-title="page[0].field_content_sub_title"
@@ -25,7 +24,6 @@
 
           </b-card>
         </transition>
-    </div>
   </div>
 
 </template>

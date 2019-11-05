@@ -1,27 +1,22 @@
 <template>
-  <div class="about">
+  <div class="about" v-if="ready">
 
     <vue-headful
-            title="About me - Rob Wild | 8Manj Technologies Ltd online portfolio & CV"
-            description="Description from vue-headful"
-            keywords="some keywords here"
+            v-bind:title="page[0].field_page_title"
+            v-bind:description="page[0].field_page_description"
+            v-bind:keywords="page[0].field_page_keywords"
     />
-    <h1>This is an about page</h1>
-
-    <pre>{{ page }}</pre>
+    <h1>{{ page[0].field_page_title }}</h1>
 
     <b-card no-body class="overflow-hidden" style="max-width: 100vw;">
       <b-row no-gutters>
         <b-col md="6">
-          <b-card-img src="https://picsum.photos/400/400/?image=20" class="rounded-0"></b-card-img>
+          <b-card-img v-bind:src="page[0].field_portrait_image" class="rounded-0" v-bind:alt="page[0].field_portrait_image_1"></b-card-img>
         </b-col>
         <b-col md="6">
-          <b-card-body title="Horizontal Card">
+          <b-card-body v-bind:title="page[0].field_content_title">
             <b-card-text>
-              <div class="slideInRight">
-              This is a wider card with supporting text as a natural lead-in to additional content.
-              This content is a little bit longer.
-              </div>
+              <div class="slideInRight" v-html="page[0].body"/>
             </b-card-text>
           </b-card-body>
         </b-col>
@@ -37,8 +32,7 @@
   var contentapi = "https://portfolio.8manj.co.uk/drupal/api/page/2";
 
   export default {
-    name: 'about',
-
+    name: 'home',
     data() {
       return {
         page: null
@@ -53,6 +47,11 @@
                 .then(response => {
                   this.page = response.data;
                 });
+      }
+    },
+    computed: {
+      ready() {
+        return this.page !== null;
       }
     }
   };
