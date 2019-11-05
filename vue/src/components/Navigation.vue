@@ -1,8 +1,12 @@
 <template>
     <div>
 
-        <b-navbar toggleable="lg" type="dark" variant="info" fixed="top" >
-            <b-navbar-brand href="#">NavBar</b-navbar-brand>
+        <b-navbar toggleable="md" type="light" variant="white" fixed="top" >
+            <b-navbar-brand href="#">
+
+                <img src="./../assets/img/8manj-small.png" alt="logo" />
+
+            </b-navbar-brand>
 
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 

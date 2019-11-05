@@ -9,7 +9,10 @@ $animationDuration: 0.5s; // specify animation duration. Default value: 1s
 @import '../../../node_modules/bootstrap-vue/src/index.scss';
 
 // Custom styles
-@import "components/carousel.scss";
+@import "components/nav";
+@import "components/carousel";
+
+@import "pages/home";
 
 body {
   background-color: #f2f2f2;

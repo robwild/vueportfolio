@@ -1,0 +1,18 @@
+.navbar {
+  &-light {
+    background-color: rgba(0,0,0,0.8) !important;
+
+    .navbar-nav .nav-link a {
+      color: #F4FABA;
+        &:hover, &:focus {
+          color: lighten(#F4FABA,80%);
+        }
+    }
+  }
+}
+
+.navbar-brand {
+  img {
+    width: 200px;
+  }
+}

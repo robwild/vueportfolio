@@ -1,0 +1,17 @@
+.home {
+  .card-img {
+    border-radius: 0;
+  }
+
+  .card-img-overlay {
+    padding: 0;
+  }
+
+  .card-body {
+    width: 66vw;
+    margin: 30vh auto auto 0;
+    padding: 30px;
+    @extend .slideInUp !optional;
+  }
+
+}

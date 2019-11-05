@@ -1,32 +1,31 @@
 <template>
 
   <div class="home">
+      <div v-if="ready">
+        <vue-headful
+                v-bind:title="page[0].field_page_title"
+                v-bind:description="page[0].field_page_description"
+                v-bind:keywords="page[0].field_page_keywords"
+        />
+        <transition name="fade" mode="out-in">
+          <b-card
+          overlay
+          v-bind:img-src="page[0].field_background_image"
+          v-bind:img-alt="page[0].field_content_sub_title"
+          text-variant="white"
+          v-bind:title="page[0].field_content_sub_title"
+          v-bind:sub-title="page[0].field_content_sub_title"
+          >
 
-    <vue-headful
-            title="Rob Wild | 8Manj Technologies Ltd online portfolio & CV"
-            description="Description from vue-headful"
-            keywords="some keywords here"
-    />
+              <b-card-text>
+                  <div v-html="page[0].body"/>
+              </b-card-text>
 
-    <div>
-      <b-card
-              overlay
-              img-src="https://picsum.photos/4096/2034/?image=3"
-              img-alt="Card Image"
-              text-variant="white"
-              title="Image Overlay"
-              sub-title="Subtitle"
-      >
-        <b-card-text>
-<!--          <div class="slideInUp" v-html="page[0].body"/>-->
-          <pre> {{ page }} </pre>
-        </b-card-text>
+              <Social />
 
-        <Social />
-
-      </b-card>
+          </b-card>
+        </transition>
     </div>
-
   </div>
 
 </template>
@@ -58,6 +57,11 @@
             this.page = response.data;
           });
       }
+    },
+    computed: {
+        ready() {
+            return this.page !== null;
+        }
     }
   };
 

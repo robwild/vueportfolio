@@ -924,14 +924,14 @@
 }
 
 /* line 40, ../scss/libraries/animate/make-transitions.scss */
-.slideUp-enter-active, .slideInUp,
+.slideUp-enter-active, .slideInUp, .home .card-body,
 .slideUp-leave-active, .slideOutUp {
   animation-duration: 0.5s;
   animation-fill-mode: both;
 }
 
 /* line 46, ../scss/libraries/animate/make-transitions.scss */
-.slideUp-enter-active, .slideInUp {
+.slideUp-enter-active, .slideInUp, .home .card-body {
   animation-name: slideInUp;
 }
 
@@ -14982,6 +14982,24 @@ input[type="color"].form-control:disabled {
   background-color: #343a40;
 }
 
+/* line 2, ../scss/components/_nav.scss */
+.navbar-light {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+/* line 5, ../scss/components/_nav.scss */
+.navbar-light .navbar-nav .nav-link a {
+  color: #F4FABA;
+}
+/* line 7, ../scss/components/_nav.scss */
+.navbar-light .navbar-nav .nav-link a:hover, .navbar-light .navbar-nav .nav-link a:focus {
+  color: white;
+}
+
+/* line 15, ../scss/components/_nav.scss */
+.navbar-brand img {
+  width: 200px;
+}
+
 @media (max-width: 768px) {
   /* line 4, ../scss/components/_carousel.scss */
   .carousel-item {
@@ -14996,7 +15014,22 @@ input[type="color"].form-control:disabled {
     top: 20vh;
   }
 }
-/* line 14, ../scss/style.scss */
+/* line 2, ../scss/pages/_home.scss */
+.home .card-img {
+  border-radius: 0;
+}
+/* line 6, ../scss/pages/_home.scss */
+.home .card-img-overlay {
+  padding: 0;
+}
+/* line 10, ../scss/pages/_home.scss */
+.home .card-body {
+  width: 66vw;
+  margin: 30vh auto auto 0;
+  padding: 30px;
+}
+
+/* line 17, ../scss/style.scss */
 body {
   background-color: #f2f2f2;
 }
