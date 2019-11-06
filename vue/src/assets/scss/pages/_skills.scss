@@ -1,0 +1,12 @@
+.skills {
+  .highcharts-credit {
+    display: none;
+  }
+
+  .card {
+    background-color: transparent;
+    @include media-breakpoint-up(xl) {
+      padding-top: 200px;
+    }
+  }
+}

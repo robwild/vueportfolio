@@ -15264,7 +15264,7 @@ input[type="color"].form-control:disabled {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: fill;
   background-color: transparent;
   padding: 120px 0 80px;
 }
@@ -15303,6 +15303,21 @@ input[type="color"].form-control:disabled {
 .portfolio .skills div {
   display: inline-block;
   margin: 0 5px 5px 0;
+}
+
+/* line 2, ../scss/pages/_skills.scss */
+.skills .highcharts-credit {
+  display: none;
+}
+/* line 6, ../scss/pages/_skills.scss */
+.skills .card {
+  background-color: transparent;
+}
+@media (min-width: 1200px) {
+  /* line 6, ../scss/pages/_skills.scss */
+  .skills .card {
+    padding-top: 200px;
+  }
 }
 
 /* line 1, ../scss/pages/_brands.scss */
@@ -15378,7 +15393,7 @@ input[type="color"].form-control:disabled {
   padding-bottom: 40px;
 }
 
-/* line 30, ../scss/style.scss */
+/* line 32, ../scss/style.scss */
 body {
   background-color: #161616;
 }

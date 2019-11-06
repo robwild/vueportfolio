@@ -1,10 +1,19 @@
 <template>
     <div class="skills">
 
-        <div class="container">
+        <div class="container-fluid">
+
+            <h1 class="sr-only">Skills breakdown</h1>
 
             <b-card no-body class="overflow-hidden" style="max-width: 100vw;">
                 <b-row no-gutters>
+                    <b-col md="6">
+                        <b-card-body title="Horizontal Card">
+                            <b-card-text>
+                                <highcharts :options="chartOptions"></highcharts>
+                            </b-card-text>
+                        </b-card-body>
+                    </b-col>
                     <b-col md="6">
                         <b-card-body title="Horizontal Card">
                             <b-card-text>
@@ -13,13 +22,7 @@
                             </b-card-text>
                         </b-card-body>
                     </b-col>
-                    <b-col md="6">
-                        <b-card-body title="Horizontal Card">
-                            <b-card-text>
-                                <highcharts :options="chartOptions"></highcharts>
-                            </b-card-text>
-                        </b-card-body>
-                    </b-col>
+
                 </b-row>
             </b-card>
 
@@ -41,20 +44,34 @@
             return {
                 chartOptions: {
                     chart: {
-                        type: 'pie'
+                        type: 'pie',
+                        backgroundColor: 'rgba(0,0,0,0)',
+                        style: {
+                            fontFamily: 'Crimson Text',
+                            fontSize: '16px'
+                        }
                     },
                     title: {
                         text: 'Skills Breakdown'
                     },
                     subtitle: {
-                        text: 'see what I can do in what skill set'
+                        text: 'See what I can do in what skill set'
                     },
                     plotOptions: {
                         series: {
                             colors: '#ff0000',
+                            size: 300,
                             dataLabels: {
                                 enabled: true,
-                                format: '{point.name}: {point.y:.1f}%'
+                                format: '{point.name}: {point.y:.1f}%',
+                                style: {
+                                    fontFamily: '\'Crimson Text\', serif',
+                                    lineHeight: '18px',
+                                    fontSize: '17px',
+                                    color: '#ffffff',
+                                    fill: '#ffffff',
+                                    stroke: ''
+                                }
                             }
                         }
                     },

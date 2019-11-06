@@ -19,11 +19,13 @@ $animationDuration: 0.5s; // specify animation duration. Default value: 1s
 @import "components/carousel";
 @import "components/social";
 @import "components/modal";
+@import "components/loading";
 
 @import "pages/home";
 @import "pages/about";
 @import "pages/career";
 @import "pages/portfolio";
+@import "pages/skills";
 @import "pages/brands";
 @import "pages/contact";
 

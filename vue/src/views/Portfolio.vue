@@ -1,4 +1,11 @@
 <template>
+
+    <div>
+
+    <div v-if="!ready">
+        <Loading />
+    </div>
+
     <div class="portfolio" v-if="ready">
 
         <vue-headful
@@ -49,15 +56,20 @@
         </div>
 
     </div>
+    </div>
 </template>
 
 <script>
-    import axios from 'axios';
 
+    import Loading from "../components/Loading";
+    import axios from 'axios';
     var contentapi = "https://portfolio.8manj.co.uk/drupal/api/portfolio";
 
     export default {
         name: 'Portfolio',
+        components: {
+            Loading
+        },
 
         data() {
             return {

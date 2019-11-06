@@ -1,4 +1,11 @@
 <template>
+
+    <div>
+
+        <div v-if="!ready">
+            <Loading />
+        </div>
+
     <div class="brands" v-if="ready">
 
         <vue-headful
@@ -10,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <h2>Everyone has a logos page right?</h2>
-                <p>Some brands I have the pleasure to deliver services and work for:</p>
+                <p>Some brands I have had the pleasure to deliver services and work for:</p>
             <b-img-lazy
                     v-for="brand in brands"
                     v-bind:key="brand.id"
@@ -21,16 +28,20 @@
         </div>
         </div>
     </div>
+
+    </div>
 </template>
 
 <script>
     import axios from 'axios';
-
+    import Loading from "../components/Loading";
     var contentapi = "https://portfolio.8manj.co.uk/drupal/api/brands";
 
     export default {
         name: 'Brands',
-
+        components: {
+            Loading
+        },
         data() {
             return {
                 brands: null

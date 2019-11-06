@@ -1,4 +1,11 @@
 <template>
+
+    <div>
+
+        <div v-if="!ready">
+            <Loading />
+        </div>
+
     <div class="contact" v-if="ready">
 
         <vue-headful
@@ -28,19 +35,22 @@
         </b-card>
 
     </div>
+
+    </div>
 </template>
 
 <script>
 
     import Social from "../components/Social";
     import axios from 'axios';
-
+    import Loading from "../components/Loading";
     var contentapi = "https://portfolio.8manj.co.uk/drupal/api/page/3";
 
     export default {
         name: 'contact',
         components: {
-            Social
+            Social,
+            Loading
         },
         data() {
             return {
