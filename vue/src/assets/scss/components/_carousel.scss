@@ -1,15 +1,58 @@
 
-@media (max-width: 768px) {
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #7ebac4;
+  padding: 20px;
+  border-radius: 30px;
+  border: 10px solid #7ebac4;
+}
 
-  .carousel-item {
-    height: calc(100vh - 80px);
+.carousel-indicators {
+  @include media-breakpoint-up(xl) {
+    bottom: auto;
+    top: calc(40vh + 20px);
   }
+}
 
   .carousel-caption {
-    height: 50vh;
     overflow-y: scroll;
-    bottom: auto;
-    top: 20vh;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    padding: 60px;
+    right: 0;
+    left: 0;
+    text-align: left;
+    @include media-breakpoint-up(xl) {
+      bottom: auto;
+      top: 40vh;
+      max-height: 66vh;
+    }
+
+    h3 {
+      @extend .font-julius !optional;
+      font-size: 48px;
+      line-height: 48px;
+      letter-spacing: 0;
+    }
+
+    h4.company {
+      @extend .font-julius !optional;
+      color: #7ebac4;
+    }
+
+    p,h3,h4,h5,.date {
+      width: 66vw;
+      margin: 0 auto;
+    }
+
+    p, h5 {
+      margin-bottom: 1rem;
+    }
+
+    .date {
+      margin: 20px auto;
+    }
   }
 
-}

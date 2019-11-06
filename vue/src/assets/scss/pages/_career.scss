@@ -1,0 +1,5 @@
+.career {
+  @include media-breakpoint-up(xl) {
+    height: 100vh;
+  }
+}

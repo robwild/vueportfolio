@@ -1,0 +1,40 @@
+.contact {
+  .card {
+    background-color: transparent;
+    color: #fff;
+    @include media-breakpoint-up(xl) {
+      height: 100vh;
+      overflow: hidden;
+    }
+  }
+
+  .card-img {
+    display: none;
+    @include media-breakpoint-up(md) {
+      display: block;
+      -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(80%);
+    }
+  }
+
+  .card-body {
+    padding: 120px 20px;
+    @include media-breakpoint-up(xl) {
+      padding: 120px 100px;
+    }
+  }
+
+  .card-title {
+    @extend .font-julius !optional;
+    color: #7ebac4;
+  }
+
+  .card-subtitle {
+    @extend .font-julius !optional;
+    //color: #fff !important;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0;
+    padding-bottom: 40px;
+  }
+}

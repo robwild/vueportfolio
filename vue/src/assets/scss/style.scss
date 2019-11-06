@@ -8,12 +8,26 @@ $animationDuration: 0.5s; // specify animation duration. Default value: 1s
 // BootstrapVue and its default variables
 @import '../../../node_modules/bootstrap-vue/src/index.scss';
 
-// Custom styles
+// Some google fonts
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Julius+Sans+One|Nunito:200,400&display=swapp');
+.font-julius { font-family: 'Julius Sans One', sans-serif; }
+.font-crimson { font-family: 'Crimson Text', serif; }
+.font-nunito { font-family: 'Nunito', sans-serif; }
+
+  // Custom styles
 @import "components/nav";
 @import "components/carousel";
+@import "components/social";
+@import "components/modal";
 
 @import "pages/home";
+@import "pages/about";
+@import "pages/career";
+@import "pages/portfolio";
+@import "pages/brands";
+@import "pages/contact";
 
-body {
-  background-color: #f2f2f2;
-}
+  body {
+    background-color: #161616;
+    @extend .font-crimson !optional;
+  }

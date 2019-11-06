@@ -1,0 +1,26 @@
+.brands {
+  background-image: url("../../assets/img/bg.jpg");
+  padding: 120px 0 80px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+
+  h2 {
+    @extend .font-julius !optional;
+    color: #7ebac4;
+    width: 100%;
+  }
+
+p {
+  width: 100%;
+  color: #fff;
+}
+
+  img {
+    width: 160px;
+    margin: 20px;
+  }
+}
+

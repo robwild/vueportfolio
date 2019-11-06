@@ -1,6 +1,11 @@
 .navbar {
-  &-light {
+  &-dark {
     background-color: rgba(0,0,0,0.8) !important;
+    @extend .font-nunito !optional;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 13px;
+    letter-spacing: 2px;
 
     .navbar-nav .nav-link a {
       color: #F4FABA;
@@ -16,3 +21,18 @@
     width: 200px;
   }
 }
+
+
+  .footer {
+    color: lighten(#fff,50%);
+    padding: 15px 40px;
+    text-align: right;
+    @include media-breakpoint-up(lg) {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1070;
+    }
+  }
+

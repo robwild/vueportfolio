@@ -1,0 +1,46 @@
+.portfolio {
+  background-image: url("../../assets/img/bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-color: transparent;
+  padding: 120px 0 80px;
+
+  .card {
+    border: 1px solid rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+
+    .btn {
+      background-color: rgba(0,0,0,0.7);
+      border-color: rgba(255,255,0,0.3);
+    }
+
+    img {
+      -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(80%);
+    }
+
+    &:hover {
+      border: 1px solid rgba(255,255,0,0.3);
+      img {
+        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(0%);
+      }
+    }
+  }
+
+  .card-title {
+    @extend .font-julius !optional;
+    color: #7ebac4;
+  }
+
+  .skills {
+    div {
+      display: inline-block;
+      margin: 0 5px 5px 0;
+    }
+  }
+
+}

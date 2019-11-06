@@ -7,10 +7,8 @@
                 keywords="some keywords here"
         />
 
-<!--        <h1>Career page</h1>-->
+        <h1 class="sr-only">Career page</h1>
 
-        <div>
-<!--            <pre>{{ career }}</pre>-->
             <b-carousel
                     id="carousel-no-animation"
                     style=""
@@ -26,11 +24,11 @@
                         v-bind:key="job.id"
                         v-bind:caption="job.field_job_"
                         v-bind:img-src="job.field_background_image"
-                        v-bind:text-html="job.field_company + job.field_date_from + job.field_date_to + job.body"
+                        v-bind:text-html="job.field_company + job.nothing + job.body"
+                        text-tag="div"
                 ></b-carousel-slide>
 
             </b-carousel>
-        </div>
     </div>
 </template>
 

@@ -6,17 +6,19 @@
                 v-bind:description="page[0].field_page_description"
                 v-bind:keywords="page[0].field_page_keywords"
         />
+        <h1 class="sr-only">{{ page[0].field_page_title }}</h1>
 
         <b-card no-body class="overflow-hidden" style="max-width: 100vw;">
             <b-row no-gutters>
                 <b-col md="6">
-                    <b-card-body v-bind:title="page[0].field_content_title">
+                    <b-card-body
+                            v-bind:title="page[0].field_content_title"
+                            v-bind:sub-title="page[0].field_content_sub_title" >
                         <b-card-text>
-                            <div class="slideInRight" v-html="page[0].body"/>
+                            <div class="slideInLeft" v-html="page[0].body"/>
                         </b-card-text>
 
                         <Social />
-
                     </b-card-body>
                 </b-col>
                 <b-col md="6">

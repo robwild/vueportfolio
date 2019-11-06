@@ -1,0 +1,40 @@
+.modal-content {
+  border-radius: 0;
+  border: none;
+  background-color: #161616;
+  color: #fff;
+}
+
+.modal-backdrop {
+  opacity: 0.8;
+}
+
+.modal-title {
+  @extend .font-julius !optional;
+  color: #7ebac4;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-body {
+  .date {
+    @extend .font-julius !optional;
+    color: #fff;
+    margin: 10px 30px;
+  }
+  .remit {
+    padding:0 60px;
+  }
+}
+
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-shadow: none;
+  opacity: 0.5;
+}
