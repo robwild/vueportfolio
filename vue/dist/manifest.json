@@ -1,5 +1,14 @@
 {
- "name": "App",
+ "short_name": "8Manj",
+ "name": "Rob Wild - 8Manj Technologies Ltd",
+ "start_url": "",
+ "display": "standalone",
+ "orientation": "portrait-primary",
+ "description": "Rob Wild, 8Manj Technologies career history, portfolio and a fair bit of waffle",
+ "dir": "ltr",
+ "lang": "en-GB",
+ "theme_color": "#F4FABA",
+ "background_color": "#161616",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
