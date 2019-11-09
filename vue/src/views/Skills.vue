@@ -8,16 +8,15 @@
             <b-card no-body class="overflow-hidden" style="max-width: 100vw;">
                 <b-row no-gutters>
                     <b-col md="6">
-                        <b-card-body title="Horizontal Card">
+                        <b-card-body>
                             <b-card-text>
                                 <highcharts :options="chartOptions"></highcharts>
                             </b-card-text>
                         </b-card-body>
                     </b-col>
                     <b-col md="6">
-                        <b-card-body title="Horizontal Card">
+                        <b-card-body>
                             <b-card-text>
-
                                 some text here
                             </b-card-text>
                         </b-card-body>
@@ -70,7 +69,9 @@
                                     fontSize: '17px',
                                     color: '#ffffff',
                                     fill: '#ffffff',
-                                    stroke: ''
+                                    stroke: '',
+                                    borderWidth: '0',
+                                    strokeWidth: '0'
                                 }
                             }
                         }

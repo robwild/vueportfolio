@@ -16,7 +16,6 @@ $animationDuration: 0.5s; // specify animation duration. Default value: 1s
 
   // Custom styles
 @import "components/nav";
-@import "components/carousel";
 @import "components/social";
 @import "components/modal";
 @import "components/loading";
@@ -31,5 +30,5 @@ $animationDuration: 0.5s; // specify animation duration. Default value: 1s
 
   body {
     background-color: #161616;
-    @extend .font-crimson !optional;
+    font-family: 'Open Sans', sans-serif;
   }

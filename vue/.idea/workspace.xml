@@ -2,14 +2,249 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71a96041-2806-4447-96c6-993c5294185a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/app.5597cc5a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/about-legacy.11164118.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/about-legacy.11164118.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/about.ad877aae.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/about.ad877aae.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/app-legacy.df95d6cf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/app-legacy.df95d6cf.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/app.687c4420.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/app.687c4420.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/a11y/a11y.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/a11y/a11y.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/controller/controller.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/controller/controller.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/core/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/core/core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/effect-coverflow/effect-coverflow.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/effect-coverflow/effect-coverflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/effect-cube/effect-cube.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/effect-cube/effect-cube.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/effect-fade/effect-fade.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/effect-fade/effect-fade.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/effect-flip/effect-flip.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/effect-flip/effect-flip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/lazy/lazy.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/lazy/lazy.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/navigation/navigation.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/navigation/navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/pagination/pagination.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/pagination/pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/scrollbar/scrollbar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/scrollbar/scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/thumbs/thumbs.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/thumbs/thumbs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/zoom/zoom.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/components/zoom/zoom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/css/swiper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/css/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/js/swiper.esm.browser.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/js/swiper.esm.browser.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/js/swiper.esm.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/js/swiper.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/scss/functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/a11y/a11y.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/a11y/a11y.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/a11y/a11y.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/autoplay/autoplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/controller/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/controller/controller.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/controller/controller.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/breakpoints/getBreakpoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/breakpoints/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/breakpoints/setBreakpoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/check-overflow/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/classes/addClasses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/classes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/classes/removeClasses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/core-class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/events/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/events/onClick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/events/onResize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/events/onScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/events/onTouchEnd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/events/onTouchMove.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/events/onTouchStart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/grab-cursor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/grab-cursor/setGrabCursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/grab-cursor/unsetGrabCursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/images/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/images/loadImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/images/preloadImages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/loop/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/loop/loopCreate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/loop/loopDestroy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/loop/loopFix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/manipulation/addSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/manipulation/appendSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/manipulation/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/manipulation/prependSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/manipulation/removeAllSlides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/manipulation/removeSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/slide/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/slide/slideNext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/slide/slidePrev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/slide/slideReset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/slide/slideTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/slide/slideToClickedSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/slide/slideToClosest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/slide/slideToLoop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/transition/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/transition/setTransition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/transition/transitionEnd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/transition/transitionStart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/translate/getTranslate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/translate/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/translate/maxTranslate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/translate/minTranslate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/translate/setTranslate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/translate/translateTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateActiveIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateAutoHeight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateClickedSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateProgress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateSize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateSlides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateSlidesClasses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateSlidesOffset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateSlidesProgress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-coverflow/effect-coverflow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-coverflow/effect-coverflow.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-coverflow/effect-coverflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-cube/effect-cube.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-cube/effect-cube.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-cube/effect-cube.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-fade/effect-fade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-fade/effect-fade.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-fade/effect-fade.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-flip/effect-flip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-flip/effect-flip.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-flip/effect-flip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/hash-navigation/hash-navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/history/history.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/keyboard/keyboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/lazy/lazy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/lazy/lazy.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/lazy/lazy.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/mousewheel/mousewheel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/navigation/navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/navigation/navigation.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/navigation/navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/pagination/pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/pagination/pagination.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/pagination/pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/parallax/parallax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/scrollbar/scrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/scrollbar/scrollbar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/scrollbar/scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/thumbs/thumbs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/thumbs/thumbs.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/thumbs/thumbs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/virtual/virtual.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/zoom/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/zoom/zoom.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/zoom/zoom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/less/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/modules/browser/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/modules/device/device.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/modules/observer/observer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/modules/resize/resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/modules/support/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/scss/functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/swiper.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/swiper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/utils/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/utils/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/utils/device.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/utils/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/utils/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/src/utils/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/swiper.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/swiper/swiper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/dist/ssr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/dist/vue-awesome-swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/src/slide.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/src/ssr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/src/swiper.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue-swiper/dist/vue-swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue-swiper/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue-swiper/src/vue-swiper.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue-swiper/src/vue-swiper.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/vue-swiper/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/js/swiper.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/app.653768b9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/about-legacy.66d81a0a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/about-legacy.66d81a0a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/about.4ff44295.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/about.4ff44295.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app-legacy.e0b87e88.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app-legacy.e0b87e88.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.5eb0d897.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.5eb0d897.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/114aeaa4c3f573b56b8cb065e8c7fc14.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/114aeaa4c3f573b56b8cb065e8c7fc14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/45d5656829d1b13fab247eb811357284.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/45d5656829d1b13fab247eb811357284.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4d59e23097008c2ce3124f73705f16d4.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/4d59e23097008c2ce3124f73705f16d4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/558399a4e0300ce59260a6eb95033179.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/558399a4e0300ce59260a6eb95033179.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/958c07610f746efb9c81ba7aca8641f2.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/958c07610f746efb9c81ba7aca8641f2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/97f57bf82a3c0a9190880124f6086f97.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/97f57bf82a3c0a9190880124f6086f97.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b8bc02d70ed97c5d391d23545ad8c543.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b8bc02d70ed97c5d391d23545ad8c543.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c13b6bdfaf784d5e7206b43d6a5bd7cd.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c13b6bdfaf784d5e7206b43d6a5bd7cd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c6da99ca5948fbfb0d98b6bfe9e6762d.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c6da99ca5948fbfb0d98b6bfe9e6762d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d0984ad208698e03d1391f6ec5d85a25.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d0984ad208698e03d1391f6ec5d85a25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d4d31d54ee7df46ad67272ac69f5b9d5.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d4d31d54ee7df46ad67272ac69f5b9d5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e634902fab4df10d683050b784d2b97d.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e634902fab4df10d683050b784d2b97d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f9b22b598599e13578febd4a1409f90d.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f9b22b598599e13578febd4a1409f90d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f9ec330bdabe0e606d1ac22fbed81299.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f9ec330bdabe0e606d1ac22fbed81299.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/17808aa50e2c12eb36840a59dd0a74b6.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/17808aa50e2c12eb36840a59dd0a74b6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/231c9463f846b39b85db6d48d5f51f38.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/231c9463f846b39b85db6d48d5f51f38.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/27101f15417735f5c9645444d54c8290.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/27101f15417735f5c9645444d54c8290.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/49c7f8ace33331c838eda286111932a4.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/49c7f8ace33331c838eda286111932a4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/57218e456d1b0774b95976c7fc2e024d.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/57218e456d1b0774b95976c7fc2e024d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/7a422353042032463f026487164d98a6.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/7a422353042032463f026487164d98a6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/84f3d95d90be373119ade769b1cd25a4.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/84f3d95d90be373119ade769b1cd25a4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/9dbb7f4e03a7a4545116ad6201194bd9.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/9dbb7f4e03a7a4545116ad6201194bd9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/b898ff041a8f2355f9bd2513b2dfc49a.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/b898ff041a8f2355f9bd2513b2dfc49a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/be08d3a653f89b891547d0877ff71aa9.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/be08d3a653f89b891547d0877ff71aa9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/e1ab52f62d5a93fbf252818554c6c998.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/e1ab52f62d5a93fbf252818554c6c998.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/e59e829e3a535cd8445c8448f4aaf424.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/e59e829e3a535cd8445c8448f4aaf424.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/e8814531f2f017aefa11cd3dfc55aa49.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/e8814531f2f017aefa11cd3dfc55aa49.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/ebaa59571b1cebc21c69aff9357feed0.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/ebaa59571b1cebc21c69aff9357feed0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/ed91c4505ed2afb634b9af3e3de69e2a.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/ed91c4505ed2afb634b9af3e3de69e2a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/_career.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/_career.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Career.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Career.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Skills.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Skills.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="vue" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,7 +260,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,7 +296,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573050831198</updated>
-      <workItem from="1573050832402" duration="4793000" />
+      <workItem from="1573050832402" duration="7697000" />
+      <workItem from="1573300101229" duration="100000" />
+      <workItem from="1573304008499" duration="10779000" />
     </task>
     <servers />
   </component>
@@ -68,7 +310,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
